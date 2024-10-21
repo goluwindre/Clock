@@ -1,0 +1,61 @@
+/* 全体のリセットとレイアウト */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+
+
+header {
+  background-color: #3d0477;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#clock {
+  font-size: 140px;
+  border: 5px solid #8800ff;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+#date{
+	font-size: 30px;
+}
+
+#time{
+	color:#220040;
+}
+
+#second{
+	font-size: 40px;
+	color:#9727f9;
+}
+
+footer {
+  background-color: #3d0477;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
